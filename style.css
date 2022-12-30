@@ -56,11 +56,15 @@ label {
 }
 #submit {
     position: relative;
-    width: 600px;
-    height: 50px;
-    border-radius: 15px;
-    background: none;
+}
+#submit:hover {
+    cursor: pointer;
 }
 #footer {
     text-align: center;
+}
+#check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
