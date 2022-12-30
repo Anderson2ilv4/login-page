@@ -35,12 +35,18 @@ body {
 #email {
     width: 600px;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 5px 0px;
 }
 #password {
     width: 600px;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: 5px 0px;
 }
 #forgot-password {
     text-align: center;
@@ -56,6 +62,10 @@ label {
 }
 #submit {
     position: relative;
+    width: 600px;
+    height: 50px;
+    box-sizing: border-box; 
+    border-radius: 30px;
 }
 #submit:hover {
     cursor: pointer;
